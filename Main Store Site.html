@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>.
+ <title> Tech Shop </title>
+ 
+ <style type="text/css"> 
+	*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}	
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	;
+	margin-right: 15px
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color:white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color:white;
+	color:black; 
+}
+ul li.active a{
+	background-color:white;
+	color:black;	
+}
+a:link{color:powderblue;}
+a:visited{color:powderblue;}
+
+
+	body { background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("bg.jpg"); 
+	       background-size: cover; background-size: cover}
+	
+	.weblogo  { margin-left: 40%; margin-top: 10px; style="width:510px;height:600px;" }
+	.homeimg  { border-radius: 10px; width: 85%; display: block; margin-left: auto; margin-right: auto; height: auto}
+
+	.gallery  { display: flex; justify-content: center; align- margin-top: 20px; width: 180px; }
+	
+	.gallery:hover .img {opacity: 0.5;}
+	
+	.desc   { padding: 15px; text-align: left; font-family: arial; font-size: 12px; color: white; transition: .3s ease}
+	.desc:hover {opacity:0:5}
+	.map 	{ text-align: center; margin-top: 20px; margin-bottom: 20px}
+
+.flex-container {
+  display: flex;
+  height: 320px;
+    justify-content: center;
+
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.flex-container > div {
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 4px;
+}
+.img 	  { opacity: 1; width: 100%; height: auto; transition: .3s ease}
+
+ </style>
+
+</head>
+
+<BODY>
+
+<img src="web logo.png" class="weblogo"style="width:350px;height:65px;" >
+
+ 	   
+    <br> 
+ 	<hr>
+
+
+<br>
+<img src="Home.png" class="homeimg">
+<background-img="bg.jpg">
+		
+		<!-- PRODUCTS first row-->
+<BR>
+		<div class="flex-container">
+			<div><a href="hrefpro1.html"> 
+				<img src="pro1.jpg" class="img" alt="CPU"> 
+			  </a> </div>
+			<div><a href="hrefpro2.html">
+				<img src="pro2.jpg" class="img" alt="CPU">
+			   </a> </div>
+			   <div>
+				<img src="tab logo.png" class="img" alt="CPU">
+			   </div>  
+			<div><a href="hrefpro3.html">
+				<img src="pro3.jpg" class="img" alt="CPU">
+			   </a> </div>  
+			<div><a href="hrefpro4.html">
+				<img src="pro4.jpg" class="img" alt="CPU">
+			   </a> </div>
+		  </div>
+		  <BR>
+
+		<!-- Map & con img -->
+
+<img src="contact.png" class="homeimg">
+<div class=map>
+ <iframe src="https://maps.google.com/maps?q=1521%20Tindalo%20St.%20Tondo%20Manila&t=&z=13&ie=UTF8&iwloc=&output=embed" width=85% height="250" style="border-radius: 10px; border: none" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</body>
+</html>
